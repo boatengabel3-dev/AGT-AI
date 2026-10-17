@@ -1,0 +1,6 @@
+{
+  "name": "AgriTrust AI",
+  "description": "Empowering Farmers. Financing Growth. Cultivating Africa's Future. A modern AI-powered agricultural finance and resource-access web platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

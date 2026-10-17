@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User account and role credentials in AgriTrust AI",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "fullName": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "country": { "type": "string" },
+        "role": { "type": "string", "enum": ["farmer", "supplier", "equipment_provider", "financial_institution", "field_agent", "admin"] },
+        "isVerified": { "type": "boolean" },
+        "avatarUrl": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "fullName", "email", "role"]
+    },
+    "FarmerProfile": {
+      "title": "FarmerProfile",
+      "description": "Detailed agricultural identity, cooperative, and verification data",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "fullName": { "type": "string" },
+        "phone": { "type": "string" },
+        "region": { "type": "string" },
+        "district": { "type": "string" },
+        "community": { "type": "string" },
+        "ghanaCardNumber": { "type": "string" },
+        "farmingExperienceYears": { "type": "number" },
+        "verificationStatus": { "type": "string" },
+        "profileCompleteness": { "type": "number" },
+        "totalLandAcres": { "type": "number" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "fullName"]
+    },
+    "Farm": {
+      "title": "Farm",
+      "description": "Registered farm parcel with GPS coordinates and boundary polygon",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "farmerId": { "type": "string" },
+        "farmerName": { "type": "string" },
+        "farmName": { "type": "string" },
+        "region": { "type": "string" },
+        "district": { "type": "string" },
+        "reportedAreaAcres": { "type": "number" },
+        "verifiedAreaAcres": { "type": "number" },
+        "cropType": { "type": "string" },
+        "plantingSeason": { "type": "string" },
+        "verificationStatus": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "farmerId", "farmName", "region", "reportedAreaAcres", "cropType"]
+    },
+    "LoanApplication": {
+      "title": "LoanApplication",
+      "description": "Agricultural credit application submitted to participating bank",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "farmerId": { "type": "string" },
+        "farmerName": { "type": "string" },
+        "financingProductId": { "type": "string" },
+        "financingProductTitle": { "type": "string" },
+        "institutionId": { "type": "string" },
+        "institutionName": { "type": "string" },
+        "requestedAmountGHS": { "type": "number" },
+        "approvedAmountGHS": { "type": "number" },
+        "associatedFarmId": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "farmerId", "financingProductId", "requestedAmountGHS", "status"]
+    },
+    "Order": {
+      "title": "Order",
+      "description": "Agro-input purchase or loan-financed input order",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "farmerId": { "type": "string" },
+        "farmerName": { "type": "string" },
+        "totalAmountGHS": { "type": "number" },
+        "paymentModel": { "type": "string" },
+        "paymentStatus": { "type": "string" },
+        "fulfilmentStatus": { "type": "string" },
+        "deliveryAddress": { "type": "string" },
+        "trackingNumber": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "farmerId", "totalAmountGHS", "paymentStatus"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/UserProfile" },
+      "description": "User profiles and credentials"
+    },
+    "/farmerProfiles/{profileId}": {
+      "schema": { "$ref": "#/entities/FarmerProfile" },
+      "description": "Detailed farmer agricultural profiles"
+    },
+    "/farms/{farmId}": {
+      "schema": { "$ref": "#/entities/Farm" },
+      "description": "Registered farm parcels with GPS polygons"
+    },
+    "/loanApplications/{appId}": {
+      "schema": { "$ref": "#/entities/LoanApplication" },
+      "description": "Agricultural input credit applications"
+    },
+    "/orders/{orderId}": {
+      "schema": { "$ref": "#/entities/Order" },
+      "description": "Marketplace input orders"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "projectId": "agritrust-ai",
+  "appId": "1:342372519721:web:7f99db4d7f1d7de58eb138",
+  "apiKey": "AIzaSyCI_l_a8x9-c79bYKJc0WG_Kp6dvaeqfDM",
+  "authDomain": "agritrust-ai.firebaseapp.com",
+  "firestoreDatabaseId": "(default)",
+  "storageBucket": "agritrust-ai.firebasestorage.app",
+  "messagingSenderId": "342372519721",
+  "measurementId": "",
+  "oAuthClientId": "",
+  "recaptchaSiteKey": ""
+}

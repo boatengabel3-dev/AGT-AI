@@ -1,0 +1,958 @@
+{
+  "users": [
+    {
+      "id": "usr_farmer_1",
+      "fullName": "Kwame Mensah",
+      "email": "kwame.mensah@agritrust.gh",
+      "phone": "+233 24 456 7890",
+      "country": "Ghana",
+      "role": "farmer",
+      "isVerified": true,
+      "avatarUrl": "/src/assets/images/farmer_profile_avatar_1791938388060.jpg",
+      "createdAt": "2026-01-15T08:00:00Z",
+      "passwordHash": "$2b$10$tDjLiMm9kRapyG51d.ijwerRYGzGeOrN.ZjKM6eSRG9nTomDpUtxm"
+    },
+    {
+      "id": "usr_supplier_1",
+      "fullName": "Ama Serwaa (AfriAgro Inputs Ltd)",
+      "email": "agro.supplies@agritrust.gh",
+      "phone": "+233 20 891 2345",
+      "country": "Ghana",
+      "role": "supplier",
+      "isVerified": true,
+      "createdAt": "2026-01-10T09:00:00Z",
+      "passwordHash": "$2b$10$tDjLiMm9kRapyG51d.ijwerRYGzGeOrN.ZjKM6eSRG9nTomDpUtxm"
+    },
+    {
+      "id": "usr_equipment_1",
+      "fullName": "Yaw Osei (Volta Mechanised Services)",
+      "email": "volta.tractors@agritrust.gh",
+      "phone": "+233 27 123 4567",
+      "country": "Ghana",
+      "role": "equipment_provider",
+      "isVerified": true,
+      "createdAt": "2026-01-12T10:00:00Z",
+      "passwordHash": "$2b$10$tDjLiMm9kRapyG51d.ijwerRYGzGeOrN.ZjKM6eSRG9nTomDpUtxm"
+    },
+    {
+      "id": "usr_bank_1",
+      "fullName": "Dr. Evelyn Addo (Agricultural Development Bank)",
+      "email": "agri.bank@agritrust.gh",
+      "phone": "+233 30 221 0000",
+      "country": "Ghana",
+      "role": "financial_institution",
+      "isVerified": true,
+      "createdAt": "2026-01-05T11:00:00Z",
+      "passwordHash": "$2b$10$tDjLiMm9kRapyG51d.ijwerRYGzGeOrN.ZjKM6eSRG9nTomDpUtxm"
+    },
+    {
+      "id": "usr_agent_1",
+      "fullName": "Kofi Boateng (Field Verification Officer)",
+      "email": "agent.kofi@agritrust.gh",
+      "phone": "+233 55 987 6543",
+      "country": "Ghana",
+      "role": "field_agent",
+      "isVerified": true,
+      "createdAt": "2026-01-08T07:30:00Z",
+      "passwordHash": "$2b$10$tDjLiMm9kRapyG51d.ijwerRYGzGeOrN.ZjKM6eSRG9nTomDpUtxm"
+    },
+    {
+      "id": "usr_admin_1",
+      "fullName": "Nana Akwasi (Operations Director)",
+      "email": "admin@agritrust.gh",
+      "phone": "+233 24 000 1122",
+      "country": "Ghana",
+      "role": "admin",
+      "isVerified": true,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "passwordHash": "$2b$10$tDjLiMm9kRapyG51d.ijwerRYGzGeOrN.ZjKM6eSRG9nTomDpUtxm"
+    },
+    {
+      "fullName": "ABEL KWADWO BOATENG",
+      "email": "boatengabel3@gmail.com",
+      "phone": "+233243847493",
+      "country": "Ghana",
+      "role": "farmer",
+      "isVerified": false,
+      "passwordHash": "$2b$10$SLjYgVQiJavRoZAH8z3r3e27BoEqCOZIRCeSbOD5ZPO1cdzn7mbxC",
+      "id": "usr_1792024992594_kzns8",
+      "createdAt": "2026-10-15T00:43:12.594Z"
+    },
+    {
+      "fullName": "Kwame Mensah",
+      "email": "farmer.kwame@gmail.com",
+      "phone": "+233 24 456 7890",
+      "country": "Ghana",
+      "role": "farmer",
+      "isVerified": true,
+      "passwordHash": "$2b$10$KU26XC7Ns0c9qlyK6K5eaO2v96ed6vJxHdBiMP0SYAltArmifqJFO",
+      "id": "usr_1792025301191_wvbsx",
+      "createdAt": "2026-10-15T00:48:21.192Z"
+    },
+    {
+      "id": "usr_fert_1",
+      "fullName": "Kofi Asare (AfriAgro Fertilizers Admin)",
+      "email": "fertilizer.admin@agritrust.gh",
+      "phone": "+233 20 555 1234",
+      "country": "Ghana",
+      "role": "fertilizer_dealer",
+      "isVerified": true,
+      "createdAt": "2026-01-10T09:00:00Z",
+      "passwordHash": "$2b$10$GNbScPwvFlZODU7fXAaFHeHVQ3FiRhXnE02EupQH6owZ9B2xVvp.m"
+    },
+    {
+      "id": "usr_seed_1",
+      "fullName": "Abena Mansa (Heritage Seed Co. Admin)",
+      "email": "seed.admin@agritrust.gh",
+      "phone": "+233 24 777 8899",
+      "country": "Ghana",
+      "role": "seed_dealer",
+      "isVerified": true,
+      "createdAt": "2026-01-11T09:00:00Z",
+      "passwordHash": "$2b$10$GNbScPwvFlZODU7fXAaFHeHVQ3FiRhXnE02EupQH6owZ9B2xVvp.m"
+    },
+    {
+      "fullName": "Kojo Mensah",
+      "email": "mrkojo6957@gmail.com",
+      "phone": "+233 24 456 7890",
+      "country": "Ghana",
+      "role": "farmer",
+      "isVerified": true,
+      "passwordHash": "$2b$10$HgiBah6vKoDGZHpphqq95O.aF2Rra6zo96.3.5DTsn54YyYKkTNpu",
+      "id": "usr_1792093857910_ofg0z",
+      "createdAt": "2026-10-15T19:50:57.910Z"
+    },
+    {
+      "fullName": "Abel Kwadwo Boateng",
+      "email": "mrkojo@gmail.com",
+      "phone": "0553527171",
+      "country": "Ghana",
+      "role": "farmer",
+      "isVerified": false,
+      "passwordHash": "$2b$10$u5OE9e/MuxxCe97BV4GR7.THO6BgagQWbtR9bh2PWXuNbUbiliaPS",
+      "id": "usr_1792094073614_e0iz8",
+      "createdAt": "2026-10-15T19:54:33.614Z"
+    }
+  ],
+  "farmerProfiles": [
+    {
+      "id": "prof_farmer_1",
+      "userId": "usr_farmer_1",
+      "fullName": "Kwame Mensah",
+      "phone": "+233 24 456 7890",
+      "region": "Bono Region",
+      "district": "Sunyani Municipal",
+      "community": "Fiapre",
+      "ghanaCardNumber": "GHA-712893812-4",
+      "farmingExperienceYears": 12,
+      "primaryCrops": [
+        "Maize",
+        "Soybeans",
+        "Cassava"
+      ],
+      "cooperativeName": "Sunyani Farmers Cooperative Union",
+      "cooperativeMembershipId": "SFCU-2022-094",
+      "verificationStatus": "verified",
+      "profileCompleteness": 92,
+      "dataSharingConsent": {
+        "shareWithBanks": true,
+        "shareWithSuppliers": true,
+        "shareWithFieldAgents": true,
+        "updatedAt": "2026-01-16T10:00:00Z"
+      },
+      "totalLandAcres": 18.5,
+      "farmsCount": 2,
+      "updatedAt": "2026-02-01T12:00:00Z"
+    },
+    {
+      "id": "prof_1792024992595",
+      "userId": "usr_1792024992594_kzns8",
+      "fullName": "ABEL KWADWO BOATENG",
+      "phone": "+233243847493",
+      "region": "Bono Region",
+      "district": "",
+      "community": "",
+      "farmingExperienceYears": 1,
+      "primaryCrops": [
+        "Maize"
+      ],
+      "verificationStatus": "not_submitted",
+      "profileCompleteness": 60,
+      "dataSharingConsent": {
+        "shareWithBanks": true,
+        "shareWithSuppliers": true,
+        "shareWithFieldAgents": true,
+        "updatedAt": "2026-10-15T00:43:12.595Z"
+      },
+      "totalLandAcres": 0,
+      "farmsCount": 0,
+      "updatedAt": "2026-10-15T00:43:12.595Z"
+    },
+    {
+      "id": "prof_1792025301192",
+      "userId": "usr_1792025301191_wvbsx",
+      "fullName": "Kwame Mensah",
+      "phone": "+233 24 456 7890",
+      "region": "Bono Region",
+      "district": "",
+      "community": "",
+      "farmingExperienceYears": 1,
+      "primaryCrops": [
+        "Maize"
+      ],
+      "verificationStatus": "not_submitted",
+      "profileCompleteness": 60,
+      "dataSharingConsent": {
+        "shareWithBanks": true,
+        "shareWithSuppliers": true,
+        "shareWithFieldAgents": true,
+        "updatedAt": "2026-10-15T00:48:21.192Z"
+      },
+      "totalLandAcres": 0,
+      "farmsCount": 0,
+      "updatedAt": "2026-10-15T00:48:21.192Z"
+    },
+    {
+      "id": "prof_1792093857911",
+      "userId": "usr_1792093857910_ofg0z",
+      "fullName": "Kojo Mensah",
+      "phone": "+233 24 456 7890",
+      "region": "Bono Region",
+      "district": "",
+      "community": "",
+      "farmingExperienceYears": 1,
+      "primaryCrops": [
+        "Maize"
+      ],
+      "verificationStatus": "not_submitted",
+      "profileCompleteness": 60,
+      "dataSharingConsent": {
+        "shareWithBanks": true,
+        "shareWithSuppliers": true,
+        "shareWithFieldAgents": true,
+        "updatedAt": "2026-10-15T19:50:57.911Z"
+      },
+      "totalLandAcres": 0,
+      "farmsCount": 0,
+      "updatedAt": "2026-10-15T19:50:57.911Z"
+    },
+    {
+      "id": "prof_1792094073615",
+      "userId": "usr_1792094073614_e0iz8",
+      "fullName": "Abel Kwadwo Boateng",
+      "phone": "0553527171",
+      "region": "Bono Region",
+      "district": "",
+      "community": "",
+      "farmingExperienceYears": 1,
+      "primaryCrops": [
+        "Maize"
+      ],
+      "verificationStatus": "not_submitted",
+      "profileCompleteness": 60,
+      "dataSharingConsent": {
+        "shareWithBanks": true,
+        "shareWithSuppliers": true,
+        "shareWithFieldAgents": true,
+        "updatedAt": "2026-10-15T19:54:33.615Z"
+      },
+      "totalLandAcres": 0,
+      "farmsCount": 0,
+      "updatedAt": "2026-10-15T19:54:33.615Z"
+    }
+  ],
+  "farms": [
+    {
+      "id": "farm_01",
+      "farmerId": "usr_farmer_1",
+      "farmerName": "Kwame Mensah",
+      "farmName": "Asuofia Golden Acre",
+      "region": "Bono Region",
+      "district": "Sunyani Municipal",
+      "community": "Fiapre North",
+      "centerCoordinates": {
+        "lat": 7.3486,
+        "lng": -2.3342
+      },
+      "boundaryPolygon": [
+        {
+          "lat": 7.3512,
+          "lng": -2.3365
+        },
+        {
+          "lat": 7.3524,
+          "lng": -2.3312
+        },
+        {
+          "lat": 7.3468,
+          "lng": -2.3308
+        },
+        {
+          "lat": 7.3455,
+          "lng": -2.3358
+        }
+      ],
+      "reportedAreaAcres": 12,
+      "verifiedAreaAcres": 11.8,
+      "cropType": "Yellow Maize (Obatanpa Variety)",
+      "secondaryCrops": [
+        "Soybean"
+      ],
+      "plantingSeason": "Major Season 2026",
+      "soilType": "Loamy Ferric Acrisol",
+      "irrigationType": "rainfed",
+      "verificationStatus": "verified",
+      "verificationNotes": "GPS perimeter verified by Field Agent Kofi Boateng. Soil test completed.",
+      "verifiedAt": "2026-01-20T14:30:00Z",
+      "verifiedBy": "usr_agent_1",
+      "createdAt": "2026-01-16T09:15:00Z"
+    },
+    {
+      "id": "farm_02",
+      "farmerId": "usr_farmer_1",
+      "farmerName": "Kwame Mensah",
+      "farmName": "Tanoso Valley Plot",
+      "region": "Bono Region",
+      "district": "Sunyani West",
+      "community": "Tanoso",
+      "centerCoordinates": {
+        "lat": 7.2842,
+        "lng": -2.2514
+      },
+      "boundaryPolygon": [
+        {
+          "lat": 7.2865,
+          "lng": -2.2535
+        },
+        {
+          "lat": 7.2872,
+          "lng": -2.2492
+        },
+        {
+          "lat": 7.2821,
+          "lng": -2.2488
+        },
+        {
+          "lat": 7.2818,
+          "lng": -2.2529
+        }
+      ],
+      "reportedAreaAcres": 6.5,
+      "cropType": "Cassava (Bankye Hemaa)",
+      "plantingSeason": "Year-round 2026",
+      "soilType": "Sandy Loam",
+      "irrigationType": "drip",
+      "verificationStatus": "pending_verification",
+      "verificationNotes": "Awaiting field agent ground-truth survey scheduled for next Tuesday.",
+      "createdAt": "2026-02-05T11:20:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_fert_01",
+      "supplierId": "usr_supplier_1",
+      "supplierName": "AfriAgro Inputs Ltd",
+      "supplierVerified": true,
+      "title": "Bio-Harvest NPK 15-15-15 Balanced Crop Fertilizer",
+      "category": "fertilizers",
+      "description": "Certified premium blended granulated fertilizer for maize, vegetables, and cereal crops. Improves root depth and grain filling.",
+      "priceGHS": 380,
+      "unit": "50kg Bag",
+      "stockQuantity": 420,
+      "specifications": {
+        "nitrogen": "15%",
+        "phosphate": "15%",
+        "potassium": "15%",
+        "origin": "Tema Industrial Area, Ghana"
+      },
+      "regulatoryApprovalNumber": "MoFA-PPRSD-F2025-089",
+      "isRegulatedApproved": true,
+      "deliveryAvailable": true,
+      "pickupAvailable": true,
+      "location": "Kumasi Central Depot & Sunyani Hub",
+      "imageUrl": "/src/assets/images/agricultural_inputs_display_1791938388813.jpg",
+      "rating": 4.8,
+      "reviewCount": 38
+    },
+    {
+      "id": "prod_seed_01",
+      "supplierId": "usr_supplier_1",
+      "supplierName": "AfriAgro Inputs Ltd",
+      "supplierVerified": true,
+      "title": "Certified High-Yield Hybrid White Maize Seed (CSIR-CRI)",
+      "category": "seeds",
+      "description": "Drought-tolerant, certified foundation seed variety tested for Ghanaian sub-humid agro-ecologies with 95%+ germination rate.",
+      "priceGHS": 145,
+      "unit": "10kg Bag",
+      "stockQuantity": 280,
+      "specifications": {
+        "germinationRate": "96%",
+        "maturityDays": "105-110 days",
+        "yieldPotential": "6.5 MT/Ha"
+      },
+      "regulatoryApprovalNumber": "MoFA-GSID-S2024-114",
+      "isRegulatedApproved": true,
+      "deliveryAvailable": true,
+      "pickupAvailable": true,
+      "location": "Sunyani Agricultural Hub",
+      "imageUrl": "/src/assets/images/agricultural_inputs_display_1791938388813.jpg",
+      "rating": 4.9,
+      "reviewCount": 52
+    },
+    {
+      "id": "prod_irrig_01",
+      "supplierId": "usr_supplier_1",
+      "supplierName": "AfriAgro Inputs Ltd",
+      "supplierVerified": true,
+      "title": "Eco-Flow 16mm Agricultural Drip Irrigation Tubing Kit",
+      "category": "irrigation",
+      "description": "UV-resistant precision drip irrigation line with pre-spaced pressure-compensating emitters at 30cm spacing. Complete with connectors.",
+      "priceGHS": 520,
+      "unit": "200m Roll",
+      "stockQuantity": 95,
+      "specifications": {
+        "emitterSpacing": "30 cm",
+        "flowRate": "1.6 L/hr",
+        "uvResistance": "5 Years Rated"
+      },
+      "isRegulatedApproved": true,
+      "deliveryAvailable": true,
+      "pickupAvailable": true,
+      "location": "Accra Depot & Kumasi",
+      "imageUrl": "/src/assets/images/agricultural_inputs_display_1791938388813.jpg",
+      "rating": 4.7,
+      "reviewCount": 19
+    },
+    {
+      "id": "prod_protect_01",
+      "supplierId": "usr_supplier_1",
+      "supplierName": "AfriAgro Inputs Ltd",
+      "supplierVerified": true,
+      "title": "Bio-Defend Emamectin Benzoate 5% WDG (Fall Armyworm Control)",
+      "category": "crop_protection",
+      "description": "MoFA-PPRSD certified water dispersible granule insecticide targeting Fall Armyworm (Spodoptera frugiperda), stem borers, and foliage caterpillars in maize and cereals.",
+      "priceGHS": 65,
+      "unit": "100g Sachet",
+      "stockQuantity": 340,
+      "specifications": {
+        "activeIngredient": "Emamectin Benzoate 50g/kg",
+        "targetPests": "Fall Armyworm, Leaf Folders, Stem Borers",
+        "preHarvestInterval": "7 Days",
+        "dosage": "15g per 15L Knapsack Sprayer"
+      },
+      "regulatoryApprovalNumber": "MoFA-PPRSD-INS-2025-042",
+      "isRegulatedApproved": true,
+      "deliveryAvailable": true,
+      "pickupAvailable": true,
+      "location": "Sunyani Hub & Techiman Depot",
+      "imageUrl": "/src/assets/images/agricultural_inputs_display_1791938388813.jpg",
+      "rating": 4.9,
+      "reviewCount": 44
+    },
+    {
+      "id": "prod_protect_02",
+      "supplierId": "usr_supplier_1",
+      "supplierName": "AfriAgro Inputs Ltd",
+      "supplierVerified": true,
+      "title": "Nordox 75 WG Super Micronized Copper Fungicide",
+      "category": "crop_protection",
+      "description": "PPRSD approved high-retention copper fungicide for Cocoa Black Pod disease (Phytophthora), Tomato Early/Late Blight, and anthracnose.",
+      "priceGHS": 110,
+      "unit": "500g Pack",
+      "stockQuantity": 180,
+      "specifications": {
+        "activeIngredient": "Cuprous Oxide 86% (eq. 75% metallic copper)",
+        "targetDiseases": "Black Pod, Early Blight, Late Blight, Anthracnose",
+        "dosage": "50g per 15L Knapsack Sprayer"
+      },
+      "regulatoryApprovalNumber": "MoFA-PPRSD-FUNG-2024-81",
+      "isRegulatedApproved": true,
+      "deliveryAvailable": true,
+      "pickupAvailable": true,
+      "location": "Kumasi Central Depot & Sunyani Hub",
+      "imageUrl": "/src/assets/images/agricultural_inputs_display_1791938388813.jpg",
+      "rating": 4.8,
+      "reviewCount": 29
+    },
+    {
+      "id": "prod_protect_03",
+      "supplierId": "usr_supplier_1",
+      "supplierName": "AfriAgro Inputs Ltd",
+      "supplierVerified": true,
+      "title": "Organic NeemShield Botanical Bio-Insecticide Extract",
+      "category": "crop_protection",
+      "description": "Cold-pressed natural Azadirachtin extract. Organic broad-spectrum biological repellent and growth disrupter for aphids, whiteflies, thrips, and mites.",
+      "priceGHS": 85,
+      "unit": "1L Bottle",
+      "stockQuantity": 215,
+      "specifications": {
+        "activeIngredient": "Azadirachtin 0.3% EC",
+        "organicCertified": "Yes (Organic Ghana Certified)",
+        "targetPests": "Whiteflies, Aphids, Thrips, Spider Mites",
+        "dosage": "50ml per 15L Water"
+      },
+      "regulatoryApprovalNumber": "MoFA-PPRSD-BIO-2025-015",
+      "isRegulatedApproved": true,
+      "deliveryAvailable": true,
+      "pickupAvailable": true,
+      "location": "Sunyani Agricultural Hub",
+      "imageUrl": "/src/assets/images/agricultural_inputs_display_1791938388813.jpg",
+      "rating": 4.7,
+      "reviewCount": 16
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1001",
+      "farmerId": "usr_farmer_1",
+      "farmerName": "Kwame Mensah",
+      "items": [
+        {
+          "productId": "prod_fert_01",
+          "productName": "Bio-Harvest NPK 15-15-15 Balanced Crop Fertilizer",
+          "unitPriceGHS": 380,
+          "quantity": 4,
+          "unit": "50kg Bag",
+          "subtotalGHS": 1520
+        },
+        {
+          "productId": "prod_seed_01",
+          "productName": "Certified High-Yield Hybrid White Maize Seed",
+          "unitPriceGHS": 145,
+          "quantity": 2,
+          "unit": "10kg Bag",
+          "subtotalGHS": 290
+        }
+      ],
+      "totalAmountGHS": 1810,
+      "paymentModel": "direct_purchase",
+      "paymentStatus": "completed",
+      "fulfilmentStatus": "dispatched",
+      "deliveryAddress": "Fiapre Agricultural Junction, Sunyani",
+      "deliveryMethod": "delivery",
+      "trackingNumber": "GH-AGRI-TRK-8821",
+      "createdAt": "2026-02-10T11:40:00Z"
+    }
+  ],
+  "financingProducts": [
+    {
+      "id": "fin_adb_input_01",
+      "institutionId": "usr_bank_1",
+      "institutionName": "Agricultural Development Bank (ADB)",
+      "institutionType": "commercial_bank",
+      "title": "ADB Smallholder Seasonal Crop Input Credit",
+      "financingPurpose": "Financing for certified seed, approved fertilizer, and land preparation services for cereal and legume farmers.",
+      "minAmountGHS": 2000,
+      "maxAmountGHS": 25000,
+      "annualInterestRatePercent": 18.5,
+      "tenureMonthsMin": 4,
+      "tenureMonthsMax": 9,
+      "gracePeriodMonths": 3,
+      "eligibleCrops": [
+        "Maize",
+        "Soybean",
+        "Rice",
+        "Sorghum"
+      ],
+      "requiredDocuments": [
+        "Ghana Card",
+        "Verified Farm GPS Polygon",
+        "Cooperative Endorsement"
+      ],
+      "eligibilityCriteria": [
+        "Minimum 1 season documented farming record",
+        "Registered and GPS-verified farm parcel on AgriTrust AI",
+        "Cooperative membership or verified credit history"
+      ],
+      "processingFeePercent": 1.5,
+      "verificationRequired": true
+    },
+    {
+      "id": "fin_rural_equip_02",
+      "institutionId": "usr_bank_1",
+      "institutionName": "Agricultural Development Bank (ADB)",
+      "institutionType": "commercial_bank",
+      "title": "AgriMechanise Machinery & Tractor Rental Advance",
+      "financingPurpose": "Direct line of credit to finance mechanized ploughing, harrowing, and harvesting equipment services.",
+      "minAmountGHS": 1500,
+      "maxAmountGHS": 15000,
+      "annualInterestRatePercent": 17,
+      "tenureMonthsMin": 3,
+      "tenureMonthsMax": 6,
+      "gracePeriodMonths": 2,
+      "eligibleCrops": [
+        "All commercial grain and tuber crops"
+      ],
+      "requiredDocuments": [
+        "Ghana Card",
+        "Farm Ownership / Tenancy Agreement"
+      ],
+      "eligibilityCriteria": [
+        "Farm size of 3 acres or greater",
+        "Booking through verified AgriTrust equipment providers"
+      ],
+      "processingFeePercent": 1,
+      "verificationRequired": true
+    }
+  ],
+  "loanApplications": [
+    {
+      "id": "loan_app_2026_01",
+      "farmerId": "usr_farmer_1",
+      "farmerName": "Kwame Mensah",
+      "farmerPhone": "+233 24 456 7890",
+      "farmerRegion": "Bono Region",
+      "financingProductId": "fin_adb_input_01",
+      "financingProductTitle": "ADB Smallholder Seasonal Crop Input Credit",
+      "institutionId": "usr_bank_1",
+      "institutionName": "Agricultural Development Bank (ADB)",
+      "requestedAmountGHS": 6500,
+      "approvedAmountGHS": 6500,
+      "proposedTenureMonths": 6,
+      "associatedFarmId": "farm_01",
+      "associatedFarmName": "Asuofia Golden Acre",
+      "cropCycle": "Major Season Maize 2026",
+      "intendedActivity": "Purchase 12 bags of NPK fertilizer, hybrid seeds, and mechanised planting.",
+      "status": "under_institutional_assessment",
+      "statusHistory": [
+        {
+          "status": "submitted",
+          "timestamp": "2026-02-12T08:30:00Z",
+          "note": "Application submitted with verified farm GPS data.",
+          "updatedBy": "usr_farmer_1"
+        },
+        {
+          "status": "awaiting_review",
+          "timestamp": "2026-02-12T09:00:00Z",
+          "note": "Application queued for loan officer review.",
+          "updatedBy": "System"
+        },
+        {
+          "status": "under_institutional_assessment",
+          "timestamp": "2026-02-13T14:15:00Z",
+          "note": "Farm boundary and soil profile validated. Under final credit committee assessment.",
+          "updatedBy": "usr_bank_1"
+        }
+      ],
+      "createdAt": "2026-02-12T08:30:00Z",
+      "updatedAt": "2026-02-13T14:15:00Z"
+    }
+  ],
+  "equipmentListings": [
+    {
+      "id": "eq_01",
+      "providerId": "usr_equipment_1",
+      "providerName": "Volta Mechanised Services",
+      "providerPhone": "+233 27 123 4567",
+      "providerVerified": true,
+      "title": "John Deere 5075E 75HP Tractor with 4-Disc Heavy Plough",
+      "category": "tractor",
+      "makeAndModel": "John Deere 5075E 4WD",
+      "horsePower": 75,
+      "ratePerAcreGHS": 180,
+      "ratePerDayGHS": 1400,
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "operationalRegion": "Bono, Ahafo & Ashanti Regions",
+      "availableFrom": "2026-02-01",
+      "availableTo": "2026-11-30",
+      "imageUrl": "/src/assets/images/farm_tractor_equipment_1791938387801.jpg",
+      "status": "available"
+    },
+    {
+      "id": "eq_02",
+      "providerId": "usr_equipment_1",
+      "providerName": "Volta Mechanised Services",
+      "providerPhone": "+233 27 123 4567",
+      "providerVerified": true,
+      "title": "Massey Ferguson 260 60HP Disc Harrow & Ridger",
+      "category": "plough",
+      "makeAndModel": "Massey Ferguson MF-260",
+      "horsePower": 60,
+      "ratePerAcreGHS": 140,
+      "ratePerDayGHS": 1100,
+      "operatorIncluded": true,
+      "fuelIncluded": false,
+      "operationalRegion": "Bono Region (Sunyani, Berekum, Dormaa)",
+      "availableFrom": "2026-02-15",
+      "availableTo": "2026-12-15",
+      "imageUrl": "/src/assets/images/farm_tractor_equipment_1791938387801.jpg",
+      "status": "available"
+    }
+  ],
+  "equipmentBookings": [
+    {
+      "id": "bk_901",
+      "equipmentId": "eq_01",
+      "equipmentTitle": "John Deere 5075E 75HP Tractor with 4-Disc Heavy Plough",
+      "farmerId": "usr_farmer_1",
+      "farmerName": "Kwame Mensah",
+      "farmerPhone": "+233 24 456 7890",
+      "providerId": "usr_equipment_1",
+      "providerName": "Volta Mechanised Services",
+      "farmId": "farm_01",
+      "farmName": "Asuofia Golden Acre",
+      "acresToService": 12,
+      "serviceStartDate": "2026-02-25",
+      "serviceEndDate": "2026-02-26",
+      "totalCostGHS": 2160,
+      "status": "confirmed",
+      "providerNote": "Operator Emmanuel will arrive with the John Deere tractor at 06:30 AM.",
+      "createdAt": "2026-02-14T10:00:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_01",
+      "userId": "usr_farmer_1",
+      "title": "Farm Verification Complete",
+      "message": "Your farm \"Asuofia Golden Acre\" has been verified by Field Agent Kofi Boateng.",
+      "type": "success",
+      "read": false,
+      "link": "/farms",
+      "createdAt": "2026-01-20T14:35:00Z"
+    },
+    {
+      "id": "notif_02",
+      "userId": "usr_farmer_1",
+      "title": "Loan Review in Progress",
+      "message": "Agricultural Development Bank (ADB) has commenced credit assessment for your Seasonal Crop Input Credit application.",
+      "type": "info",
+      "read": false,
+      "link": "/financing",
+      "createdAt": "2026-02-13T14:20:00Z"
+    },
+    {
+      "id": "notif_03",
+      "userId": "usr_farmer_1",
+      "title": "Equipment Booking Confirmed",
+      "message": "Volta Mechanised Services confirmed your tractor booking for February 25, 2026.",
+      "type": "success",
+      "read": true,
+      "link": "/equipment",
+      "createdAt": "2026-02-14T10:05:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "actorId": "usr_farmer_1",
+      "actorName": "Kwame Mensah",
+      "actorRole": "farmer",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_farmer_1",
+      "details": "User authenticated via password credentials",
+      "id": "log_1792196793028",
+      "timestamp": "2026-10-17T00:26:33.028Z"
+    },
+    {
+      "actorId": "usr_farmer_1",
+      "actorName": "Kwame Mensah",
+      "actorRole": "farmer",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_farmer_1",
+      "details": "User authenticated via password credentials",
+      "id": "log_1792196780914",
+      "timestamp": "2026-10-17T00:26:20.914Z"
+    },
+    {
+      "actorId": "usr_farmer_1",
+      "actorName": "Kwame Mensah",
+      "actorRole": "farmer",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_farmer_1",
+      "details": "User authenticated via password credentials",
+      "id": "log_1792196769503",
+      "timestamp": "2026-10-17T00:26:09.503Z"
+    },
+    {
+      "actorId": "usr_farmer_1",
+      "actorName": "Kwame Mensah",
+      "actorRole": "farmer",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_farmer_1",
+      "details": "User authenticated via password credentials",
+      "id": "log_1792196766910",
+      "timestamp": "2026-10-17T00:26:06.910Z"
+    },
+    {
+      "actorId": "usr_1792093857910_ofg0z",
+      "actorName": "Kojo Mensah",
+      "actorRole": "farmer",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_1792093857910_ofg0z",
+      "details": "User authenticated via Google Account (Firebase)",
+      "id": "log_1792094650538",
+      "timestamp": "2026-10-15T20:04:10.538Z"
+    },
+    {
+      "actorId": "usr_1792093857910_ofg0z",
+      "actorName": "Kojo Mensah",
+      "actorRole": "farmer",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_1792093857910_ofg0z",
+      "details": "User authenticated via Google Account (Firebase)",
+      "id": "log_1792094358685",
+      "timestamp": "2026-10-15T19:59:18.685Z"
+    },
+    {
+      "actorId": "usr_1792094073614_e0iz8",
+      "actorName": "Abel Kwadwo Boateng",
+      "actorRole": "farmer",
+      "action": "USER_REGISTERED",
+      "resourceType": "User",
+      "resourceId": "usr_1792094073614_e0iz8",
+      "details": "New user registration with role farmer",
+      "id": "log_1792094073615",
+      "timestamp": "2026-10-15T19:54:33.615Z"
+    },
+    {
+      "actorId": "usr_1792093857910_ofg0z",
+      "actorName": "Kojo Mensah",
+      "actorRole": "farmer",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_1792093857910_ofg0z",
+      "details": "User authenticated via Google Account (Firebase)",
+      "id": "log_1792093861522",
+      "timestamp": "2026-10-15T19:51:01.522Z"
+    },
+    {
+      "actorId": "usr_1792093857910_ofg0z",
+      "actorName": "Kojo Mensah",
+      "actorRole": "farmer",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_1792093857910_ofg0z",
+      "details": "User authenticated via Google Account (Firebase)",
+      "id": "log_1792093857915",
+      "timestamp": "2026-10-15T19:50:57.915Z"
+    },
+    {
+      "actorId": "usr_1792093857910_ofg0z",
+      "actorName": "Kojo Mensah",
+      "actorRole": "farmer",
+      "action": "USER_REGISTERED",
+      "resourceType": "User",
+      "resourceId": "usr_1792093857910_ofg0z",
+      "details": "User registered via Google Authentication (Firebase)",
+      "id": "log_1792093857911",
+      "timestamp": "2026-10-15T19:50:57.911Z"
+    },
+    {
+      "actorId": "usr_admin_1",
+      "actorName": "Nana Akwasi (Operations Director)",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_admin_1",
+      "details": "User authenticated via password credentials",
+      "id": "log_1792093030540",
+      "timestamp": "2026-10-15T19:37:10.540Z"
+    },
+    {
+      "actorId": "usr_farmer_1",
+      "actorName": "Kwame Mensah",
+      "actorRole": "farmer",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_farmer_1",
+      "details": "User authenticated via password credentials",
+      "id": "log_1792093027633",
+      "timestamp": "2026-10-15T19:37:07.633Z"
+    },
+    {
+      "actorId": "usr_admin_1",
+      "actorName": "Nana Akwasi (Operations Director)",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_admin_1",
+      "details": "User authenticated via password credentials",
+      "id": "log_1792093024178",
+      "timestamp": "2026-10-15T19:37:04.178Z"
+    },
+    {
+      "actorId": "usr_1792025301191_wvbsx",
+      "actorName": "Kwame Mensah",
+      "actorRole": "farmer",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_1792025301191_wvbsx",
+      "details": "User authenticated via Google Account (Firebase)",
+      "id": "log_1792025301196",
+      "timestamp": "2026-10-15T00:48:21.196Z"
+    },
+    {
+      "actorId": "usr_1792025301191_wvbsx",
+      "actorName": "Kwame Mensah",
+      "actorRole": "farmer",
+      "action": "USER_REGISTERED",
+      "resourceType": "User",
+      "resourceId": "usr_1792025301191_wvbsx",
+      "details": "User registered via Google Authentication (Firebase)",
+      "id": "log_1792025301193",
+      "timestamp": "2026-10-15T00:48:21.193Z"
+    },
+    {
+      "actorId": "usr_1792024992594_kzns8",
+      "actorName": "ABEL KWADWO BOATENG",
+      "actorRole": "farmer",
+      "action": "USER_REGISTERED",
+      "resourceType": "User",
+      "resourceId": "usr_1792024992594_kzns8",
+      "details": "New user registration with role farmer",
+      "id": "log_1792024992595",
+      "timestamp": "2026-10-15T00:43:12.595Z"
+    },
+    {
+      "actorId": "usr_bank_1",
+      "actorName": "Dr. Evelyn Addo (Agricultural Development Bank)",
+      "actorRole": "financial_institution",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_bank_1",
+      "details": "User authenticated via password credentials",
+      "id": "log_1792024254734",
+      "timestamp": "2026-10-15T00:30:54.734Z"
+    },
+    {
+      "actorId": "usr_admin_1",
+      "actorName": "Nana Akwasi (Operations Director)",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "resourceType": "Session",
+      "resourceId": "usr_admin_1",
+      "details": "User authenticated via password credentials",
+      "id": "log_1792024193834",
+      "timestamp": "2026-10-15T00:29:53.834Z"
+    },
+    {
+      "id": "log_01",
+      "actorId": "usr_agent_1",
+      "actorName": "Kofi Boateng",
+      "actorRole": "field_agent",
+      "action": "VERIFIED_FARM_POLYGON",
+      "resourceType": "Farm",
+      "resourceId": "farm_01",
+      "details": "Verified boundary coordinates for Asuofia Golden Acre. Area confirmed at 11.8 acres.",
+      "timestamp": "2026-01-20T14:30:00Z"
+    },
+    {
+      "id": "log_02",
+      "actorId": "usr_farmer_1",
+      "actorName": "Kwame Mensah",
+      "actorRole": "farmer",
+      "action": "SUBMITTED_LOAN_APPLICATION",
+      "resourceType": "LoanApplication",
+      "resourceId": "loan_app_2026_01",
+      "details": "Submitted GHS 6,500 input credit application for Major Season Maize.",
+      "timestamp": "2026-02-12T08:30:00Z"
+    }
+  ]
+}
